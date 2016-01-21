@@ -1,0 +1,22 @@
+---
+title: "Some R code"
+author: "JM M"
+date: "January 20, 2016"
+output: html_document
+---
+
+Here I present some R coding. 
+```{r}
+ecoData=read.csv("ECO.csv",stringsAsFactors=F)
+head(ecoData)
+str(ecoData)
+```
+
+This is a **summary** of the *"Index of Economic Freedom"*:
+
+```{r, echo=FALSE}
+summary(ecoData$eco)
+```
+
+
+
