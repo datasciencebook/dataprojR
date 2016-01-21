@@ -1,0 +1,206 @@
+Country,fips,iso2,iso3,niso3,world
+Afghanistan,AF,AF,AFG,4.0,NF
+Albania,AL,AL,ALB,8.0,PF
+Algeria,AG,DZ,DZA,12.0,NF
+Andorra,AN,AD,AND,20.0,F
+Angola,AO,AO,AGO,24.0,NF
+Argentina,AR,AR,ARG,32.0,F
+Armenia,AM,AM,ARM,51.0,PF
+Australia,AS,AU,AUS,36.0,F
+Austria,AU,AT,AUT,40.0,F
+Azerbaijan,AJ,AZ,AZE,31.0,NF
+Bahamas,BF,BS,BHS,44.0,F
+Bahrain,BA,BH,BHR,48.0,NF
+Bangladesh,BG,BD,BGD,50.0,PF
+Barbados,BB,BB,BRB,52.0,F
+Belarus,BO,BY,BLR,112.0,NF
+Belgium,BE,BE,BEL,56.0,F
+Belize,BH,BZ,BLZ,84.0,F
+Benin,BN,BJ,BEN,204.0,F
+Bhutan,BT,BT,BTN,64.0,PF
+Botswana,BC,BW,BWA,72.0,F
+Brazil,BR,BR,BRA,76.0,F
+Bulgaria,BU,BG,BGR,100.0,F
+Burkina Faso,UV,BF,BFA,854.0,PF
+Burundi,BY,BI,BDI,108.0,NF
+Cambodia,CB,KH,KHM,116.0,NF
+Cameroon,CM,CM,CMR,120.0,NF
+Canada,CA,CA,CAN,124.0,F
+Cape Verde,CV,CV,CPV,132.0,F
+Central African Republic,CT,CF,CAF,140.0,NF
+Chad,CD,TD,TCD,148.0,NF
+Chile,CI,CL,CHL,152.0,F
+China,CH,CN,CHN,156.0,NF
+Colombia,CO,CO,COL,170.0,PF
+Comoros,CN,KM,COM,174.0,PF
+Costa Rica,CS,CR,CRI,188.0,F
+Croatia,HR,HR,HRV,191.0,F
+Cuba,CU,CU,CUB,192.0,NF
+Cyprus,CY,CY,CYP,196.0,F
+Czech Republic,EZ,CZ,CZE,203.0,F
+Denmark,DA,DK,DNK,208.0,F
+Djibouti,DJ,DJ,DJI,262.0,NF
+Dominica,DO,DM,DMA,212.0,F
+Dominican Republic,DR,DO,DOM,214.0,F
+Ecuador,EC,EC,ECU,218.0,PF
+Egypt,EG,EG,EGY,818.0,NF
+El Salvador,ES,SV,SLV,222.0,F
+Equatorial Guinea,EK,GQ,GNQ,226.0,NF
+Eritrea,ER,ER,ERI,232.0,NF
+Estonia,EN,EE,EST,233.0,F
+Ethiopia,ET,ET,ETH,231.0,NF
+Fiji,FJ,FJ,FJI,242.0,PF
+Finland,FI,FI,FIN,246.0,F
+France,FR,FR,FRA,250.0,F
+Gabon,GB,GA,GAB,266.0,NF
+Georgia,GG,GE,GEO,268.0,PF
+Germany,GM,DE,DEU,276.0,F
+Ghana,GH,GH,GHA,288.0,F
+Greece,GR,GR,GRC,300.0,F
+Grenada,GJ,GD,GRD,308.0,F
+Guatemala,GT,GT,GTM,320.0,PF
+Guinea,GV,GN,GIN,324.0,PF
+Guinea-Bissau,PU,GW,GNB,624.0,PF
+Guyana,GY,GY,GUY,328.0,F
+Haiti,HA,HT,HTI,332.0,PF
+Honduras,HO,HN,HND,340.0,PF
+Hungary,HU,HU,HUN,348.0,F
+Iceland,IC,IS,ISL,352.0,F
+India,IN,IN,IND,356.0,F
+Indonesia,ID,ID,IDN,360.0,PF
+Iraq,IZ,IQ,IRQ,368.0,NF
+Ireland,EI,IE,IRL,372.0,F
+Israel,IS,IL,ISR,376.0,F
+Italy,IT,IT,ITA,380.0,F
+Jamaica,JM,JM,JAM,388.0,F
+Japan,JA,JP,JPN,392.0,F
+Jordan,JO,JO,JOR,400.0,NF
+Kazakhstan,KZ,KZ,KAZ,398.0,NF
+Kenya,KE,KE,KEN,404.0,PF
+Kiribati,KR,KI,KIR,296.0,F
+Kuwait,KU,KW,KWT,414.0,PF
+Kyrgyzstan,KG,KG,KGZ,417.0,PF
+Latvia,LG,LV,LVA,428.0,F
+Lebanon,LE,LB,LBN,422.0,PF
+Lesotho,LT,LS,LSO,426.0,F
+Liberia,LI,LR,LBR,430.0,PF
+Libya,LY,LY,LBY,434.0,NF
+Liechtenstein,LS,LI,LIE,438.0,F
+Lithuania,LH,LT,LTU,440.0,F
+Luxembourg,LU,LU,LUX,442.0,F
+Madagascar,MA,MG,MDG,450.0,PF
+Malawi,MI,MW,MWI,454.0,PF
+Malaysia,MY,MY,MYS,458.0,PF
+Maldives,MV,MV,MDV,462.0,PF
+Mali,ML,ML,MLI,466.0,PF
+Malta,MT,MT,MLT,470.0,F
+Marshall Islands,RM,MH,MHL,584.0,F
+Mauritania,MR,MR,MRT,478.0,NF
+Mauritius,MP,MU,MUS,480.0,F
+Mexico,MX,MX,MEX,484.0,PF
+Monaco,MN,MC,MCO,492.0,F
+Mongolia,MG,MN,MNG,496.0,F
+Montenegro,MJ,ME,MNE,499.0,F
+Morocco,MO,MA,MAR,504.0,PF
+Mozambique,MZ,MZ,MOZ,508.0,PF
+Namibia,WA,NA,NAM,516.0,F
+Nauru,NR,NR,NRU,520.0,F
+Nepal,NP,NP,NPL,524.0,PF
+Netherlands,NL,NL,NLD,528.0,F
+New Zealand,NZ,NZ,NZL,554.0,F
+Nicaragua,NU,NI,NIC,558.0,PF
+Niger,NG,NE,NER,562.0,PF
+Nigeria,NI,NG,NGA,566.0,PF
+Norway,NO,NO,NOR,578.0,F
+Oman,MU,OM,OMN,512.0,NF
+Pakistan,PK,PK,PAK,586.0,PF
+Palau,PS,PW,PLW,585.0,F
+Panama,PM,PA,PAN,591.0,F
+Papua New Guinea,PP,PG,PNG,598.0,PF
+Paraguay,PA,PY,PRY,600.0,PF
+Peru,PE,PE,PER,604.0,F
+Philippines,RP,PH,PHL,608.0,PF
+Poland,PL,PL,POL,616.0,F
+Portugal,PO,PT,PRT,620.0,F
+Qatar,QA,QA,QAT,634.0,NF
+Romania,RO,RO,ROU,642.0,F
+Rwanda,RW,RW,RWA,646.0,NF
+Saint Kitts and Nevis,SC,KN,KNA,659.0,F
+Saint Lucia,ST,LC,LCA,662.0,F
+Samoa,WS,WS,WSM,882.0,F
+San Marino,SM,SM,SMR,674.0,F
+Saudi Arabia,SA,SA,SAU,682.0,NF
+Senegal,SG,SN,SEN,686.0,F
+Serbia,RI,RS,SRB,688.0,F
+Seychelles,SE,SC,SYC,690.0,PF
+Sierra Leone,SL,SL,SLE,694.0,PF
+Singapore,SN,SG,SGP,702.0,PF
+Slovakia,LO,SK,SVK,703.0,F
+Slovenia,SI,SI,SVN,705.0,F
+Solomon Islands,BP,SB,SLB,90.0,PF
+Somalia,SO,SO,SOM,706.0,NF
+South Africa,SF,ZA,ZAF,710.0,F
+South Sudan,OD,SS,SSD,728.0,NF
+Spain,SP,ES,ESP,724.0,F
+Sri Lanka,CE,LK,LKA,144.0,PF
+Sudan,SU,SD,SDN,729.0,NF
+Suriname,NS,SR,SUR,740.0,F
+Swaziland,WZ,SZ,SWZ,748.0,NF
+Sweden,SW,SE,SWE,752.0,F
+Switzerland,SZ,CH,CHE,756.0,F
+Tajikistan,TI,TJ,TJK,762.0,NF
+Thailand,TH,TH,THA,764.0,NF
+Togo,TO,TG,TGO,768.0,PF
+Tonga,TN,TO,TON,776.0,F
+Tunisia,TS,TN,TUN,788.0,F
+Turkey,TU,TR,TUR,792.0,PF
+Turkmenistan,TX,TM,TKM,795.0,NF
+Tuvalu,TV,TV,TUV,798.0,F
+Uganda,UG,UG,UGA,800.0,NF
+Ukraine,UP,UA,UKR,804.0,PF
+United Arab Emirates,AE,AE,ARE,784.0,NF
+United Kingdom,UK,GB,GBR,826.0,F
+United States,US,US,USA,840.0,F
+Uruguay,UY,UY,URY,858.0,F
+Uzbekistan,UZ,UZ,UZB,860.0,NF
+Vanuatu,NH,VU,VUT,548.0,F
+Yemen,YM,YE,YEM,887.0,NF
+Zambia,ZA,ZM,ZMB,894.0,PF
+Zimbabwe,ZI,ZW,ZWE,716.0,NF
+Czechoslovakia,,,,,
+"Germany, E. ",,,,,
+"Germany, W. ",,,,,
+Kosovo,,,,,PF
+USSR,,,,,
+"Vietnam, N.",,,,,
+"Vietnam, S.",,,,,
+"Yemen, N.",,,,,
+"Yemen, S.",,,,,
+Yugoslavia,,,,,
+Yugoslavia (Serbia & Montenegro),,,,,
+Burma,BM,MM,MMR,104.0,NF
+Congo (Brazzaville),CF,CG,COG,178.0,NF
+Congo (Kinshasa),CG,CD,COD,180.0,NF
+North Korea,KN,KP,PRK,408.0,NF
+South Korea,KS,KR,KOR,410.0,F
+Antigua & Barbuda,F,AG,ATG,28.0,AC
+Bolivia,PF,BO,BOL,68.0,BL
+Bosnia-Herzegovina,PF,BA,BIH,70.0,BK
+Brunei,NF,BN,BRN,96.0,BX
+Cote d'Ivoire,PF,CI,CIV,384.0,IV
+East Timor,PF,TL,TLS,626.0,TT
+"Gambia, The",NF,GM,GMB,270.0,GA
+Iran,NF,IR,IRN,364.0,IR
+Laos,NF,LA,LAO,418.0,LA
+Macedonia,PF,MK,MKD,807.0,MK
+Micronesia,F,FM,FSM,583.0,FM
+Moldova,PF,MD,MDA,498.0,MD
+Russia,NF,RU,RUS,643.0,RS
+Saint Vincent & Grenadines,F,VC,VCT,670.0,VC
+Sao Tome & Principe,F,ST,STP,678.0,TP
+Syria,NF,SY,SYR,760.0,SY
+Taiwan,F,TW,TWN,158.0,TW
+Tanzania,PF,TZ,TZA,834.0,TZ
+Trinidad & Tobago,F,TT,TTO,780.0,TD
+Venezuela,PF,VE,VEN,862.0,VE
+Vietnam,NF,VN,VNM,704.0,VM
