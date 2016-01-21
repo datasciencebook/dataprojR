@@ -19,4 +19,47 @@ summary(ecoData$eco)
 ```
 
 
+## How is the Economic Freedom distributed in the world?
+
+I will add the data from the Index of Economic freedom as another attribute of the countries in the map of the world. The map was downloaded from [this link](http://thematicmapping.org). These are the steps I followed.
+
+### Merge the data of my CSV with the DBF using a common field:
+This is not a common merge. You need to do the merge, keeping all the values of the map, and keeping in the same order. So a **sorter** variable is added to re order the map data before saving. 
+```{r,warning=FALSE,message=FALSE,cache=TRUE}
+library(foreign)
+DBF=file.path("map","TM_WORLD_BORDERS-0.3.dbf")
+mapData=read.dbf(DBF)
+names(mapData)
+ecoData=ecoData[,c(5,2)] # just the iso3 and eco value
+ecoData=ecoData[complete.cases(ecoData),] # no NAs
+mapData$sorter <- as.numeric(rownames(mapData)) # extra var to re order
+mapData=merge(mapData,ecoData,by.x="ISO3", by.y="iso3",all.x = T)
+mapData=mapData[order(mapData$sorter),] # reordering
+rownames(mapData)=NULL
+write.dbf(mapData,DBF) #saving updated file
+```
+
+### Time to plot the Index:
+Now we can plot, the <b style='color:green'>greener</b> the better, the <b style='color:red'>redder</b> the worse. Black is missing value.
+
+```{r,warning=FALSE,message=FALSE,fig.width=12,fig.height=6}
+library(maptools)
+SHP=file.path("map","TM_WORLD_BORDERS-0.3.shp")
+worldmap=readShapeSpatial(SHP) 
+library(ggplot2)
+worldmapGG <- fortify(worldmap, region = "ISO3") 
+map= ggplot(data = worldmap@data,
+            aes(map_id = ISO3)) + 
+     geom_map(aes(fill = worldmap@data$eco), 
+              map = worldmapGG) + 
+     expand_limits(x = worldmap@data$LON, 
+                   y = worldmap@data$LAT) + 
+     scale_fill_continuous(low='red', high='green', 
+                           na.value = "white") + 
+     guides(fill=FALSE) #no AREA legend
+
+map
+```
+
+
 
